@@ -89,7 +89,7 @@ define wordpress::instance (
   $wp_config_content     = undef,
   $wp_plugin_dir         = 'DEFAULT',
   $wp_additional_config  = 'DEFAULT',
-  $wp_config_permissions = '0600',  
+  $wp_config_permissions = '0755',  
   $wp_table_prefix       = 'wp_',
   $wp_proxy_host         = '',
   $wp_proxy_port         = '',
